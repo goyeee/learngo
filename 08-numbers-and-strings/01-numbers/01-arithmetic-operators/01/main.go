@@ -15,6 +15,7 @@ func main() {
 	// in an expression, the result always becomes
 	// a float value
 	fmt.Println(8 * -4.0) // -32.0 not -32
+	fmt.Printf("%T\n", 8 * -4.0)
 
 	// two integer values result in an integer value
 	fmt.Println(-4 / 2)

@@ -60,6 +60,7 @@ func main() {
 	// Try running the program with a value of -128 to 127
 	// Running it beyond that range will result in
 	// either -128 or 127.
+	fmt.Printf("val`s type is %T\n", val)
 	fmt.Println("int8 value is:", int8(val))
 
 	// --------------------------------------

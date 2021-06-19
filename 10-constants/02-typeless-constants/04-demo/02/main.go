@@ -29,7 +29,7 @@ func main() {
 	// OK: i is int, Duration is int64
 	//     So, i is convertable to int64
 	t = time.Second * time.Duration(i)
-
+	fmt.Printf("%T\n", time.Duration(i))
 	fmt.Println(t)
 
 	// #3

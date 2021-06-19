@@ -8,6 +8,12 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+	"strconv"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Odd or Even
 //
@@ -37,4 +43,10 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	if number,err := strconv.Atoi(os.Args[1]); err != nil || number == 0 {
+
+		fmt.Println("Pick a number")
+		fmt.Println(err)
+		fmt.Println(number)
+	}
 }

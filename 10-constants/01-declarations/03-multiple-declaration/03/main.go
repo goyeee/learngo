@@ -10,6 +10,7 @@ package main
 
 import "fmt"
 
+
 func main() {
 	// constants repeat the previous type and expression
 	const (

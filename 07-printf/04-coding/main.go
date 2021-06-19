@@ -33,20 +33,20 @@ func main() {
 	// why use other verbs than? because: type-safety
 	// uncomment to see the warnings:
 	//
-	// fmt.Printf("Planet: %d\n", planet)
-	// fmt.Printf("Distance: %s millions kms\n", distance)
-	// fmt.Printf("Orbital Period: %t days\n", orbital)
-	// fmt.Printf("Does %v has life? %f\n", planet, hasLife)
+	//fmt.Printf("Planet: %d\n", planet)
+	//fmt.Printf("Distance: %s millions kms\n", distance)
+	//fmt.Printf("Orbital Period: %t days\n", orbital)
+	//fmt.Printf("Does %v has life? %f\n", planet, hasLife)
 
 	// correct verbs:
-	// fmt.Printf("Planet: %s\n", planet)
-	// fmt.Printf("Distance: %d millions kms\n", distance)
-	// fmt.Printf("Orbital Period: %f days\n", orbital)
-	// fmt.Printf("Does %s has life? %t\n", planet, hasLife)
+	fmt.Printf("Planet: %s\n", planet)  // string %s
+	fmt.Printf("Distance: %d millions kms\n", distance) // int %d
+	fmt.Printf("Orbital Period: %f days\n", orbital) // float64 %f
+	fmt.Printf("Does %s has life? %t\n", planet, hasLife) // bool %t
 
 	// precision
-	fmt.Printf("Orbital Period: %f days\n", orbital)
-	fmt.Printf("Orbital Period: %.0f days\n", orbital)
-	fmt.Printf("Orbital Period: %.1f days\n", orbital)
-	fmt.Printf("Orbital Period: %.2f days\n", orbital)
+	fmt.Printf("Orbital Period: %f days\n", orbital) // Orbital Period: 224.701000 days
+	fmt.Printf("Orbital Period: %.0f days\n", orbital) // Orbital Period: 225 days
+	fmt.Printf("Orbital Period: %.1f days\n", orbital) // Orbital Period: 224.7 days
+	fmt.Printf("Orbital Period: %.2f days\n", orbital) // Orbital Period: 224.70 days
 }

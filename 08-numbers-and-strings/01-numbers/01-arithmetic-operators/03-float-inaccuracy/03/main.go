@@ -18,11 +18,11 @@ func main() {
 	ratio := 3.0 / 2
 
 	// OR:
-	// ratio = 3 / 2.0
+	ratio = 3 / 2.0
 
 	// OR - if 3 is inside an int variable:
-	// n := 3
-	// ratio = float64(n) / 2
+	//n := 3
+	//ratio = float64(n) / 2
 
 	fmt.Printf("%f", ratio)
 }

@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Declare bool
 //
@@ -21,5 +23,7 @@ package main
 
 func main() {
 	// var ? ?
+	var isOn bool
 	// ?
+	fmt.Println(isOn)
 }

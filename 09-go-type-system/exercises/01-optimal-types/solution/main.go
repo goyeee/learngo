@@ -8,12 +8,15 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/fatih/color"
+)
 
 func main() {
 	// an english letter (search web for: ascii control code)
-	var letter byte = 'A'
-	fmt.Println("an english letter:", letter)
+	//var letter byte = 'A'
+	color.Red("an english letter:")
 
 	// a non-english letter (search web for: unicode codepoint)
 	var unicode rune

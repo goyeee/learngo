@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Package Variable
 //
@@ -17,5 +19,10 @@ package main
 //     use it
 // ---------------------------------------------------------
 
+var a int = 12
+var b int = a + 3
 func main() {
+	fmt.Println("something")
+	fmt.Println(a)
+	fmt.Println(b)
 }

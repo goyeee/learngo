@@ -33,7 +33,6 @@ func main() {
 		// assigns the result back into main func's
 		// n variable
 		n *= 2
-
 		fmt.Printf("%s * 2 is %d\n", a[1], n)
 	}
 

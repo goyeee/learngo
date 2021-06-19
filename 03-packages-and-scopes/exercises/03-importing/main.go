@@ -7,7 +7,9 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import hello "fmt"
+import hey "fmt"
+import hi "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Rename imports
 //
@@ -27,6 +29,9 @@ package main
 
 func main() {
 	// ?
+	hello.Println("hello")
+	hey.Println("hey")
+	hi.Println("hi")
 	// ?
 	// ?
 }

@@ -27,6 +27,14 @@ package main
 
 func main() {
 	// var ? int
+	//var 3speed
+	//var !speed
+	//var spe?ed int
+	//var var
+	//var func
+	//var package
+
+
 	// var ? int
 	// var ? int
 	// var ? int

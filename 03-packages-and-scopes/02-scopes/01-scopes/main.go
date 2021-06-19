@@ -13,13 +13,16 @@ import "fmt"
 
 // package scope
 const ok = true
+const not = false
 
 // package scope
 func main() { // block scope starts
 
 	var hello = "Hello"
+	var yohoo = "yohoo"
 
 	// hello and ok are visible here
 	fmt.Println(hello, ok)
+	fmt.Println(not,yohoo)
 
 } // block scope ends

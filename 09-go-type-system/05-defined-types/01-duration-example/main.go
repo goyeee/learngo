@@ -15,6 +15,7 @@ import (
 
 func main() {
 	h, _ := time.ParseDuration("4h30m")
+	fmt.Println(h)
 
 	// why would you want to create a new type?
 

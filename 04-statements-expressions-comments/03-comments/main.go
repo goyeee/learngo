@@ -19,4 +19,5 @@ Executable programs are also called "commands".
 */
 func main() {
 	fmt.Println("Hello Gopher!")
+	newmiain()
 }

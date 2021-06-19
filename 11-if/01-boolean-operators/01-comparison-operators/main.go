@@ -11,8 +11,8 @@ package main
 import "fmt"
 
 func main() {
-	speed := 100 // #1
-	// speed := 10 // #2
+	//speed := 100 // #1
+	speed := 10 // #2
 
 	fast := speed >= 80
 	slow := speed < 20

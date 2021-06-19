@@ -26,8 +26,9 @@ import "fmt"
 // ---------------------------------------------------------
 
 func main() {
+	const a  = iota
 	const (
-		Nov = 11
+		Nov = 11 - a
 		Oct = 10
 		Sep = 9
 	)

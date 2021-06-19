@@ -36,4 +36,5 @@ func main() {
 	// a utf-8 encoded string value, you should do this:
 	fmt.Printf("%q is %d characters\n",
 		name, utf8.RuneCountInString(name))
+	fmt.Printf("%q is %d bytes\n", name, utf8.RuneCountInString(name))
 }

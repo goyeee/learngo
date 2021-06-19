@@ -23,6 +23,7 @@ func main() {
 	}
 
 	s := args[1]
+	fmt.Printf("strings.IndexAny %d\n", strings.IndexAny(s, "aeiou"))
 	if strings.IndexAny(s, "aeiou") != -1 {
 		fmt.Printf("%q is a vowel.\n", s)
 	} else if s == "w" || s == "y" {

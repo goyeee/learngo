@@ -8,13 +8,15 @@
 
 package main
 
+import "fmt"
+
 func main() {
 	// // Precedence: Order of expressions
 	// // Multiplication operators runs first: * and /
 
-	// fmt.Println(
-	// 	1 + 5 - 3*10/2,
-	// )
+	fmt.Println(
+		1 + 5 - 3*10/2,
+	)
 
 	// // 3 * 10 = 30
 	// // 30 / 2 = 15
@@ -25,7 +27,7 @@ func main() {
 	// // Use parentheses to change the order of evaluation.
 	// // First, (1+5-3), then (10/2) will be calculated.
 
-	// fmt.Println(
-	// 	(1 + 5 - 3) * (10 / 2),
-	// )
+	fmt.Println(
+		(1 + 5 - 3) * (10 / 2),
+	)
 }

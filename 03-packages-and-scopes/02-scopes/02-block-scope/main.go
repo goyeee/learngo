@@ -22,6 +22,6 @@ func main() { // block scope starts
 	// hello and ok are not visible here
 
 	// ERROR:
-	// fmt.Println(hello, ok)
+	//fmt.Println(hello, ok)
 
 } // block scope ends

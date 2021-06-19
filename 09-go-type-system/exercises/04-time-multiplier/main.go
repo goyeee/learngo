@@ -10,6 +10,8 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"strconv"
 	"time"
 )
 
@@ -47,6 +49,8 @@ func main() {
 
 	// TYPE YOUR CODE HERE
 	// ....
+	mul, _ := strconv.ParseInt(os.Args[1], 10, 8)
+	t *= time.Duration(mul)
 
 	// DONT TOUCH THIS
 	fmt.Println(t)

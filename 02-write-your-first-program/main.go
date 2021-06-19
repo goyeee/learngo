@@ -41,6 +41,7 @@ func main() {
 
 	// Exported = First Letter is uppercase
 	fmt.Println("Hello Gopher!")
+	fmt.Println("Goyeee")
 
 	// Go cannot call Println function by itself.
 	// That's why you need to call it here.
@@ -54,7 +55,7 @@ func main() {
 	// Because: Literal ~= Source Code
 
 	// EXERCISE: Remove the comments from below --> //
-	// fmt.Println("Merhaba Köstebek!")
+	fmt.Println("Merhaba Köstebek!")
 
 	// Unnecessary note:
 	// "Merhaba Köstebek" means "Hello Gopher"

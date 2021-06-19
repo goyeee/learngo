@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Multiple
 //
@@ -31,4 +33,12 @@ func main() {
 	//   ?
 	// )
 	// fmt.Println(active, delta)
+	var (
+		active bool
+		delta int
+	)
+	fmt.Println(
+		active,
+		delta,
+		)
 }

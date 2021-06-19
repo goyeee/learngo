@@ -26,5 +26,7 @@ func main() {
 
 	// ALTERNATIVE:
 	// math.Pow calculates the power of a float number
-	// area = math.Pi * math.Pow(radius, 2)
+	area = math.Pi * math.Pow(radius, 2)
+	fmt.Printf("radius: %g -> area: %.2f\n",
+		radius, area)
 }

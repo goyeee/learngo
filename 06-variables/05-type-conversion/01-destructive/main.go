@@ -15,7 +15,7 @@ func main() {
 	force := 2.5 // float64
 
 	// ERROR: invalid op
-	// speed = speed * force
+	//speed = speed * force
 
 	// conversion can be a destructive operation
 	// `force` loses its fractional part...

@@ -17,6 +17,7 @@ func main() {
 	// since, min's default type is int (you'll learn)
 	var i = min
 
+
 	var f float64 = min
 	var b byte = min
 	var j int32 = min

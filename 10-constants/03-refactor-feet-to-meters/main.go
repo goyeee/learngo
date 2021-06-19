@@ -10,6 +10,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"os"
 	"strconv"
 )
@@ -20,12 +21,16 @@ import (
 // Refactor it and use named constants instead
 
 func main() {
+	const (
+		meterTime = 0.3048
+		yardTime = meterTime / 0.9144
+	)
 	arg := os.Args[1]
 
 	feet, _ := strconv.ParseFloat(arg, 64)
 
-	meters := feet * 0.3048
-	yards := feet * 0.3333
+	meters := feet * meterTime
+	yards := math.Round(feet * yardTime)
 
 	fmt.Printf("%g feet is %g meters.\n", feet, meters)
 	fmt.Printf("%g feet is %g yards.\n", feet, yards)

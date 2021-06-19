@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Print the Type
 //
@@ -19,4 +21,6 @@ package main
 
 func main() {
 	// ?
+	fmt.Printf("%T\n", 3)
+	fmt.Printf("Type of %d is %[1]T\n", 3)
 }

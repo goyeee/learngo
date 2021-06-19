@@ -17,7 +17,7 @@ import "fmt"
 // SYNTAX ERROR:
 // "non-declaration statement outside function body"
 
-// safe := true
+//safe := true
 
 // However, you can use the normal declaration at the
 // package scope. Since it has a keyword: `var`

@@ -24,7 +24,7 @@ func main() {
 	// should be a new variable
 
 	safe, speed := true, 50
-
+	//again := false
 	fmt.Println(safe, speed)
 
 	// EXERCISE

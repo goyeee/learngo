@@ -20,6 +20,7 @@ func main() {
 	// I'm going to explain it afterwards
 	for range [...]int{10: 0} {
 		ratio += 1.0 / 10.0
+		fmt.Println(ratio)
 	}
 
 	fmt.Printf("%.60f", ratio)

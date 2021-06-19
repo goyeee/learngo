@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 func main() {
 	// Uncomment the line of code below; then save the file.
 	//
@@ -19,7 +21,7 @@ func main() {
 	//
 	// It adds them automatically after all.
 
-	/*
+
 		fmt.Println("inanc"); fmt.Println("lina"); fmt.Println("ebru");
-	*/
+
 }
