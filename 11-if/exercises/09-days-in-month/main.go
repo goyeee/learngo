@@ -104,12 +104,7 @@ func main() {
 	fmt.Println(month)
 
 	year := time.Now().Year()
-	var leap bool
-	if year%4 == 0 && year%100 != 0 || year%400 == 0 {
-		leap = true
-	}else {
-		leap = false
-	}
+	leap := year%4 == 0 && year%100 != 0 || year%400 == 0
 
 	lowerMonth := strings.ToLower(month)
 

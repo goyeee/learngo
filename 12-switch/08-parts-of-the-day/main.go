@@ -29,6 +29,8 @@ func main() {
 		fmt.Println("good morning")
 	default: // 0 to 5
 		fmt.Println("good night")
+		fmt.Print(h)
+
 	}
 
 	// h is not available here

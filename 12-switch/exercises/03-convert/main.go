@@ -50,4 +50,13 @@ func main() {
 	} else {
 		fmt.Printf(errPwd, u)
 	}
+
+	switch {
+	case u != user && u != user2:
+		fmt.Printf(errUser, u)
+	case u == user && p == pass, u == user2 && p == pass2:
+		fmt.Printf(accessOK, u)
+	default:
+		fmt.Printf(errPwd, u)
+	}
 }

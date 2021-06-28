@@ -16,7 +16,7 @@ func main() {
 	// true is in a comment now
 	// you can delete that part if you want
 	// it's by default true anyway.
-	switch i := 10; /* true */ {
+	switch i := -10; /* true */ {
 	case i > 0:
 		fmt.Println("positive")
 	case i < 0:
