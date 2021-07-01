@@ -19,7 +19,7 @@
 ## When you slice a slice, what value does it return?
 ```go
 // example:
-s := []string{"i'm", "a", "slice"}
+s := []string{"I'm", "a", "slice"}
 s[2:] // <-- slicing
 ```
 1. It returns a new slice value with a new backing array
@@ -29,7 +29,7 @@ s[2:] // <-- slicing
 > **3:** Yes! Slicing returns a new slice that references to some segment of the same backing array.
 
 
-## Why is slicing and indexing a slice efficient?
+## Why are slicing and indexing a slice efficient?
 1. Slices are fast
 2. Backing arrays are contiguous in memory *CORRECT*
 3. Go uses clever algorithms

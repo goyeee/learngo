@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	strings := []string{
+	words := []string{
 		"cool",
 		"güzel",
 		"jīntiān",
@@ -22,7 +22,7 @@ func main() {
 		"read 🤓",
 	}
 
-	for _, s := range strings {
+	for _, s := range words {
 		fmt.Printf("%q\n", s)
 
 		// Print the byte and rune length of the strings
@@ -58,7 +58,7 @@ func main() {
 		// Print the last rune of the strings
 		// Hint: Use utf8.DecodeLastRuneInString
 		r, size = utf8.DecodeLastRuneInString(s)
-		fmt.Printf("\tfirst   : %q (%d bytes)\n", r, size)
+		fmt.Printf("\tlast    : %q (%d bytes)\n", r, size)
 
 		// Slice and print the first two runes of the strings
 		_, first := utf8.DecodeRuneInString(s)
